@@ -1,0 +1,3 @@
+Line 1 of the text file
+and line 2
+and finally line 3
