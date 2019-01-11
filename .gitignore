@@ -6,3 +6,6 @@ __pycache__/
 
 # Rope project settings
 .ropeproject
+
+# Visual studio settings
+.vscode
