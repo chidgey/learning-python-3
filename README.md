@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/chidgey/learning-python-3.svg?branch=master)](https://travis-ci.com/chidgey/learning-python-3)
+
 # Learning-python-3
 
 ## Jupyter-notebook-exercises
