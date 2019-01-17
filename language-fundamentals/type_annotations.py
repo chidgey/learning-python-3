@@ -37,14 +37,14 @@ points: LatLngVector = [
 ]
 
 
-# Example of a type hint annotation to signal the type returned to the caller.
-def sum_two_numbers(a: int, b: int) -> int:
-    return a + b
+def sum_two_numbers(first: int, second: int) -> int:
+    """Example of a type hint annotation to signal the type returned to the caller."""
+    return first + second
 
 
-# String based usage of annotations
-def concat_two_strings(a: str, b: str) -> str:
-    return a + b
+def concat_two_strings(first: str, second: str) -> str:
+    """String based usage of annotations"""
+    return first + second
 
 
 # Examples of using type hints with variables

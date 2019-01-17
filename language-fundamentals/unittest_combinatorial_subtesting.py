@@ -1,12 +1,14 @@
 #!/usr/bin/env python3
 
-"""In this example, the test_combined() method never runs the assertions for 
-the patterns 'c' and 'd'. The test_with_subtest() method does, and correctly 
-reports the additional failure. Note that the test runner still considers there 
+"""In this example, the test_combined() method never runs the assertions for
+the patterns 'c' and 'd'. The test_with_subtest() method does, and correctly
+reports the additional failure. Note that the test runner still considers there
 to only be two test cases, even though there are three failures reported.
 """
 
 import unittest
+
+#pylint: disable=missing-docstring
 
 
 class SubTest(unittest.TestCase):
