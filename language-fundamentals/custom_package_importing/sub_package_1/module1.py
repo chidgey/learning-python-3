@@ -1,4 +1,5 @@
 def run():
-    print('Hello from MyCustomPackage.SubPackage1.Module1')
+    print('Hello from custom_package_importing.sub_package_1')
 
-print('SubPackage1.module1 imported')
+
+print('sub_package_1.module1 imported')

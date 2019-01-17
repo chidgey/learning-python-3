@@ -5,16 +5,16 @@
 
 # note that importing * requires the author to specifiy in the __init__.py for
 # the module exactly what importing * means.
-from MyMainPackage import *
+from custom_package_importing import *
 
 # import the whole module
-from MyMainPackage.SubPackage1 import module1
+from custom_package_importing.sub_package_1 import module1
 
 # import the whole module but due to a module name clash, rename the import
-from MyMainPackage.SubPackage2 import module1 as subPackage2Module1
+from custom_package_importing.sub_package_2 import module1 as subPackage2Module1
 
 # import the module function directly into this space
-from MyMainPackage.SubPackage2.module1 import run
+from custom_package_importing.sub_package_1.module1 import run
 
 # Uses the main module
 main_module.run()
