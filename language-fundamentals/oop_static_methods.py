@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
-"""Illustrates how Python can make class methods static"""
+"""Illustrates how Python can make class methods static."""
+
 
 class Music:
 
@@ -16,15 +17,16 @@ class Music:
     # INSTANCE METHOD, defined with self. This has no args, effectively void.
     def stop(self):
         '''This will appear in the instance documentation for the class'''
-        print("stop playing")
+        print("stop playing: " + self)
+
 
 Music.play()
 
 # this method is instance only
-#Music.stop()
+# Music.stop()
 
 obj = Music()
 obj.stop()
 
 # the inbuilt help method is great for inspecting objects
-help(Music)  
+help(Music)

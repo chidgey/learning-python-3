@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-# pylint: disable=missing-docstring,invalid-name
 
 import random
 import unittest

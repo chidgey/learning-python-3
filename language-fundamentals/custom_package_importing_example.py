@@ -1,5 +1,4 @@
 #!/usr/bin/env python3
-#pylint: disable=wrong-import-position
 
 """ Explores various ways to import packages, modules and functions.
 

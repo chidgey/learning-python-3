@@ -4,7 +4,6 @@
     elements of a string.
 """
 
-#pylint: disable=missing-docstring
 def demo():
     # String insert without specifing position
     print('This is my {} {} {} string'.format('third', 'second', 'first'))

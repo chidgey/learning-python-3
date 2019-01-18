@@ -2,7 +2,9 @@
 
 """Dictionary manipulation, dictionaries are mutable and unordered and cannot be sorted."""
 
-product_dictionary = {'car':566.88,'motorbike':344.44,'data':[1,2,3,4,'ace']}
+product_dictionary = {'car': 566.88,
+                      'motorbike': 344.44, 
+                      'data': [1, 2, 3, 4, 'ace']}
 print(product_dictionary['motorbike'])
 
 # get the last element of the sequence from the data key

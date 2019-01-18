@@ -8,9 +8,6 @@ to only be two test cases, even though there are three failures reported.
 
 import unittest
 
-#pylint: disable=missing-docstring
-
-
 class SubTest(unittest.TestCase):
 
     def test_combined(self):

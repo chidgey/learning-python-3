@@ -15,7 +15,6 @@ python -m unittest discover
 
 import unittest
 
-#pylint: disable=missing-docstring
 class SimplisticTest(unittest.TestCase):
 
     def test(self):

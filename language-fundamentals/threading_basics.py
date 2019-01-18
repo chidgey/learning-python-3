@@ -1,7 +1,5 @@
 #!/usr/bin/env python3
 
-# pylint: disable=missing-docstring
-
 """A great example of how to spin up multiple threads that service a queue of jobs
 to be done.
 

@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+from random import shuffle, randint
 """Various way to control the flow of a program"""
 
 # using if, elif and else statements
@@ -61,9 +62,9 @@ else:
 myString = 'Hello moon - the rest of this string will not be printed as we break'
 for letter in myString:
     if letter == 'o':
-        continue # skip printing if o is found
+        continue  # skip printing if o is found
     elif letter == '-':
-        break # break the loop on finding -
+        break  # break the loop on finding -
 print(letter)
 
 # this gives us a tuple, so we can get the index of the letter too
@@ -73,9 +74,9 @@ for index, letter in enumerate('abcde'):
     print('\n')
 
 # zipping stitches together various sequences into tuples
-myList1 = [1,2,3,4,5,6]
-myList2 = ['a','b','c']
-myList3 = [100,200,300]
+myList1 = [1, 2, 3, 4, 5, 6]
+myList2 = ['a', 'b', 'c']
+myList3 = [100, 200, 300]
 
 for item in zip(myList1, myList2, myList3):
     print(item)
@@ -85,13 +86,12 @@ print('H' in 'Hello')
 print('Z' in 'Hello')
 
 # neat little list shuffle
-from random import shuffle, randint
-myList = [1,2,3,4,5,6]
+myList = [1, 2, 3, 4, 5, 6]
 shuffle(myList)
 print(myList)
 
 # random numbers
-print(randint(0,100))
+print(randint(0, 100))
 
 # collecting data from the user
 myNumber = input('Enter a number: ')
