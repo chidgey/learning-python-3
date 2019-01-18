@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 
-# read more about modules at:
-# https://docs.python.org/3/tutorial/modules.html#importing-from-a-package
+""" Read more about modules at:
+https://docs.python.org/3/tutorial/modules.html#importing-from-a-package
+"""
 
-# note that importing * requires the author to specifiy in the __init__.py for
+# Note that importing * requires the author to specifiy in the __init__.py for
 # the module exactly what importing * means.
 from custom_package_importing import *
 
