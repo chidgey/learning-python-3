@@ -1,30 +1,30 @@
 #!/usr/bin/env python3
+#pylint: disable=wrong-import-position
 
-""" Read more about modules at:
+""" Explores various ways to import packages, modules and functions.
+
 https://docs.python.org/3/tutorial/modules.html#importing-from-a-package
 """
 
-# Note that importing * requires the author to specifiy in the __init__.py for
-# the module exactly what importing * means.
+# Importing * requires the author to specifiy in the __init__.py which
+# modules are imported - this style is discouraged and will fail pylint
 from custom_package_importing import *
-
-# import the whole module
-from custom_package_importing.sub_package_1 import module1
-
-# import the whole module but due to a module name clash, rename the import
-from custom_package_importing.sub_package_2 import module1 as subPackage2Module1
-
-# import the module function directly into this space
-from custom_package_importing.sub_package_1.module1 import run
-
-# Uses the main module
 main_module.run()
 
-# runs our subpackage1 modules function
+# Better to use
+import custom_package_importing
+# which imports the package and you explictly call the module required.
+# this approach helps the reader understand where the function resides.
+custom_package_importing.main_module.run()
+
+# scopes to only module 1
+from custom_package_importing.sub_package_1 import module1
 module1.run()
 
-# this is necessary as we have name clashes in the module
+# import using alias, to prevent the module name sub_package_1
+from custom_package_importing.sub_package_2 import module1 as subPackage2Module1
 subPackage2Module1.run()
 
-# was imported directly, so doesn't need the module name.
+# import the module's function directly into this module space
+from custom_package_importing.sub_package_1.module1 import run
 run()
