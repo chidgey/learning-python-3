@@ -12,3 +12,13 @@ __pycache__/
 
 # SonarScanner settings
 .scannerwork
+
+# Code Coverage settings
+.coverage
+coverage.xml
+
+# Bandit security report
+bandit-report.json
+
+# Unit test report
+nosetests.xml

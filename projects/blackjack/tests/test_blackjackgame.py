@@ -16,7 +16,7 @@ https://docs.python-guide.org/writing/tests/
 
 import unittest
 
-from blackjackgame import DeckOfCards
+from src.blackjackgame import DeckOfCards
 
 
 class TestDeckOfCards(unittest.TestCase):

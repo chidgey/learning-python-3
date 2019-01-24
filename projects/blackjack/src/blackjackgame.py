@@ -15,6 +15,10 @@ class Card():
 
     def get_value(self):
         """Returns the value of the current card."""
+        # To trigger bandit test errors - just to verify the security tooling is working.
+        password = "secret"
+        if password == "root":
+            assert self.value == "3"
         return self.value
 
 

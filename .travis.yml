@@ -12,5 +12,8 @@ addons:
     organization: "chidgey-github"
 
 script:
-  - python ./projects/blackjack/blackjackgame_test.py
+  - python ./projects/blackjack/tests/test_blackjackgame.py
   - sonar-scanner
+
+# python -m unittest discover -s ./projects/blackjack/tests --verbose
+# Review: https://docs.travis-ci.com/user/deployment/pypi/
