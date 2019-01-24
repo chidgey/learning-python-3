@@ -73,11 +73,6 @@ class Dealer():
     def has_won(self, player_hand):
         """Tests the players hand against the dealers hand and decides if the dealer won"""
 
-        # sum of dealers hand
-        # sum of players hand
-
-        #sum_of_player_hand = sum(player_hand)
-
     def hit(self):
         """Dealer will continue to hit until they reach 17 or above"""
         self.hand += self.deck_of_cards.take_card()
@@ -169,5 +164,4 @@ class Blackjack():
 
         while True:
 
-            #is_still_playing = input("Do you want to play again? Y/N")
             break
