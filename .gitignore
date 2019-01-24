@@ -9,3 +9,6 @@ __pycache__/
 
 # Visual studio settings
 .vscode
+
+# SonarScanner settings
+.scannerwork

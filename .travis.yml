@@ -3,7 +3,14 @@ dist: xenial
 sudo: yes
 
 language: python
+
 python:
   - "3.7"
+
+addons:
+  sonarcloud:
+    organization: "chidgey-github"
+
 script:
-  -  python ./projects/blackjack/blackjackgame_test.py
+  - python ./projects/blackjack/blackjackgame_test.py
+  - sonar-scanner

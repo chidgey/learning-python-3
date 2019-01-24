@@ -1,5 +1,3 @@
-[![Build Status](https://travis-ci.com/chidgey/learning-python-3.svg?branch=master)](https://travis-ci.com/chidgey/learning-python-3)
-
 # Learning-python-3
 
 ## Jupyter-notebook-exercises
@@ -12,15 +10,17 @@ In here you can explore lots of different constructs that can be applied to Pyth
 
 ## Projects
 
-### Black-jack and tic tac toe
-These projects are part of a very basic games collection to explore how we can use control flow logic and data structures to represent some simple games.
+### Black-jack
+[![Build Status](https://travis-ci.com/chidgey/learning-python-3.svg?branch=master)](https://travis-ci.com/chidgey/learning-python-3) [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Learning-Python&metric=alert_status)](https://sonarcloud.io/dashboard?id=Learning-Python)
 
-I wrote these myself, instead of following along the Python 3 bootcamp as this proved to be a better learning experience - albiet slower.
+Part of a series in simple game projects used to play around with control flow logic and data structures in Python 3.7+
+
+Exploring the use of build pipe lines with Travis-CI - as the badges above illustrate.
+
+### Tic tac toe
+A classic and my first simple game to explore Python.
 
 ### Graphical work catalogue
 My first attempt at creating a simple utility that can be used to construct a directory structure on disk for working with graphical assets used in client projects using the Affinity Designer, Photo and Publisher.
 
 Hopefully this will make it easier to manage such projects in a consistent way.
-
-## DevOps - Travis CI
-I'm exploring the use of Travis CI to build and test python projects, review .travis.yaml for more info.
